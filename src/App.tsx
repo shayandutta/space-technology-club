@@ -48,112 +48,112 @@ function App() {
     {
       name: "Sovit Pratim",
       role: "President",
-      image: "/team/sovit.jpg",
+      image: "/team/sovit.webp",
     },
     {
       name: "Prabal Choudhury",
       role: "Vice President",
-      image: "/team/prabal.jpg",
+      image: "/team/prabal.webp",
     },
     {
       name: "Jitu Saha",
       role: "Secretary",
-      image: "/team/jitu.jpg",
+      image: "/team/jitu.webp",
     },
     {
       name: "Dimple Medhi",
       role: "Joint Secretary",
-      image: "/team/dimple.jpg",
+      image: "/team/dimple.webp",
     },
     {
       name: "Dhritiman Sarma",
       role: "Treasurer",
-      image: "/team/dhritiman.jpg",
+      image: "/team/dhritiman.webp",
     },
     {
       name: "Bastab Bora",
       role: "Event Management",
-      image: "/team/bastab.jpg",
+      image: "/team/bastab.webp",
     },
     {
       name: "Manalisha Bora",
       role: "Event Management",
-      image: "/team/manalisha.jpg",
+      image: "/team/manalisha.webp",
     },
     {
       name: "Neehar Kakaty",
       role: "Video Editor",
-      image: "/team/neehar.jpg",
+      image: "/team/neehar.webp",
     },
     {
       name: "Aman Seal",
       role: "Technical Team",
-      image: "/team/aman.jpg",
+      image: "/team/aman.webp",
     },
     {
       name: "Jahnu Patowary",
       role: "Technical Team",
-      image: "/team/jahnu.jpg",
+      image: "/team/jahnu.webp",
     },
     {
       name: "Sumanta Das",
       role: "Technical Team",
-      image: "/team/sumanta.jpg",
+      image: "/team/sumanta.webp",
     },
     {
       name: "Kapil Sarmah",
       role: "Technology Team",
-      image: "/team/kapil.jpg",
+      image: "/team/kapil.webp",
     },
     {
       name: "Nishant Rabha",
       role: "Technology Team",
-      image: "/team/nishant.jpg",
+      image: "/team/nishant.webp",
     },
     {
       name: "Pratiksha Borkakoty",
       role: "Media & Publicity",
-      image: "/team/pratiksha.jpg",
+      image: "/team/pratiksha.webp",
     },
     {
       name: "Riyan Rishav Deka",
       role: "Media & Publicity",
-      image: "/team/riyan.jpg",
+      image: "/team/riyan.webp",
     },
     {
       name: "Sneha Choudhury",
       role: "Media & Publicity",
-      image: "/team/sneha.jpg",
+      image: "/team/sneha.webp",
     },
     {
       name: "Abhispa Dutta",
       role: "Graphics Team",
-      image: "/team/abhipsa.jpg",
+      image: "/team/abhipsa.webp",
     },
     {
       name: "Hridayan Nath",
       role: "Graphics Team",
-      image: "/team/hridayan.jpg",
+      image: "/team/hridayan.webp",
     },
     {
       name: "Mandisha Shivam",
       role: "Graphics Team",
-      image: "/team/mandisha.jpg",
+      image: "/team/mandisha.webp",
     },
     {
       name: "Dikshita Dutta",
       role: "Astronomy Team",
-      image: "/team/dikshita.jpg",
+      image: "/team/dikshita.webp",
     },
     {
       name: "Kristina Deka",
       role: "E-magazine Team",
-      image: "/team/kristina.jpg",
+      image: "/team/kristina.webp",
     },
     {
       name: "Prakash Kalita",
       role: "E-magazine Team",
-      image: "/team/prakash.jpg",
+      image: "/team/prakash.webp",
     },
   ];
 
@@ -188,42 +188,42 @@ function App() {
       date: "Oct 2, 2024",
       description:
         "The Space Technology Students' Society of IIT Kharagpur and the Space Technology Club of AEC joined forces for an unprecedented collaboration that brought together space enthusiasts from across Assam. This highly anticipated event, which brought together the expertise and passion of both institutions, was designed to foster knowledge-sharing, excitement, and a deeper understanding and appreciation of space technology through quizzes and presentations resulting in a highly enriching and engaging event.",
-      image: "/events/space-quiz.png",
+      image: "/events/space-quiz.webp",
     },
     {
       title: "Astro-Photography",
       date: "Jan 26 - Feb 18, 2025",
       description:
         "A photography competition, focused on capturing the beauty of the night sky – stars and planets – drew students from across the region. A secluded plateau, chosen for its minimal light pollution, became the venue. As dusk fell, tripods and telescopes were set up, ready to record the celestial display. Students aimed to capture the Milky Way, nebulae, and planetary movements.",
-      image: "/events/astro-photography.jpeg",
+      image: "/events/astro-photography.webp",
     },
     {
       title: "CosmoThink",
       date: "Sept 13, 2024",
       description:
         "The Space Technology Club of our college organized a captivating event titled Cosmothink exclusively for the freshers of the 2024 batch. This event was designed to ignite creativity, test knowledge, and encourage teamwork among the participants, while also introducing them to the wonders of space technology in an engaging and enjoyable manner.",
-      image: "/events/cosmothink.jpeg",
+      image: "/events/cosmothink.webp",
     },
     {
       title: "Beyond The Lab",
       date: "Feb 26, 2025",
       description:
         "Beyond the Lab is the most awaited mega event from Space Technology Club which is held under Udbhavanam and Pyrokinesis. The Beyond the lab 3.0 was organized on 26 February, 2025 which was the first day of our cultural cum technical fest of our college. The event was based on an open themed science exhibition competition which consisted both software and hardware based projects. The students who participated came from different parts of Assam",
-      image: "/events/beyond-the-lab.jpeg",
+      image: "/events/beyond-the-lab.webp",
     },
   ];
 
   const galleryImages = [
-    "/gallery/1.jpg",
-    "/gallery/2.jpg",
-    "/gallery/6.jpg",
-    "/gallery/7.jpg",
-    "/gallery/4.jpg",
-    "/gallery/5.jpg",
-    "/gallery/3.jpg",
-    "/gallery/10.jpg",
-    "/gallery/8.jpg",
-    "/gallery/9.jpg",
+    "/gallery/1.webp",
+    "/gallery/2.webp",
+    "/gallery/6.webp",
+    "/gallery/7.webp",
+    "/gallery/4.webp",
+    "/gallery/5.webp",
+    "/gallery/3.webp",
+    "/gallery/10.webp",
+    "/gallery/8.webp",
+    "/gallery/9.webp",
   ];
 
   const [isExpanded, setIsExpanded] = useState(false);
