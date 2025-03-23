@@ -1,0 +1,145 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-black;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Stars Animation */
+#stars {
+  width: 1px;
+  height: 1px;
+  background: transparent;
+  box-shadow: 1744px 122px #FFF , 134px 1321px #FFF , 92px 859px #FFF , 235px 1045px #FFF , 366px 912px #FFF , 491px 942px #FFF , 14px 1831px #FFF , 582px 476px #FFF , 588px 1230px #FFF , 1520px 1343px #FFF , 1671px 203px #FFF , 550px 341px #FFF , 1491px 549px #FFF , 558px 161px #FFF , 896px 1823px #FFF , 999px 1463px #FFF , 1557px 636px #FFF , 1754px 1307px #FFF , 1682px 1494px #FFF , 703px 1707px #FFF , 1945px 1395px #FFF , 1343px 1622px #FFF , 209px 1706px #FFF , 581px 100px #FFF , 1394px 1788px #FFF , 1214px 1487px #FFF , 1210px 1767px #FFF , 503px 1459px #FFF , 1317px 1383px #FFF;
+  animation: animStar 50s linear infinite;
+}
+
+#stars2 {
+  width: 2px;
+  height: 2px;
+  background: transparent;
+  box-shadow: 1744px 122px #FFF , 134px 1321px #FFF , 92px 859px #FFF , 235px 1045px #FFF , 366px 912px #FFF , 491px 942px #FFF , 14px 1831px #FFF , 582px 476px #FFF , 588px 1230px #FFF , 1520px 1343px #FFF , 1671px 203px #FFF , 550px 341px #FFF , 1491px 549px #FFF , 558px 161px #FFF , 896px 1823px #FFF , 999px 1463px #FFF , 1557px 636px #FFF , 1754px 1307px #FFF , 1682px 1494px #FFF , 703px 1707px #FFF , 1945px 1395px #FFF , 1343px 1622px #FFF , 209px 1706px #FFF , 581px 100px #FFF , 1394px 1788px #FFF , 1214px 1487px #FFF , 1210px 1767px #FFF , 503px 1459px #FFF , 1317px 1383px #FFF;
+  animation: animStar 100s linear infinite;
+}
+
+#stars3 {
+  width: 3px;
+  height: 3px;
+  background: transparent;
+  box-shadow: 1744px 122px #FFF , 134px 1321px #FFF , 92px 859px #FFF , 235px 1045px #FFF , 366px 912px #FFF , 491px 942px #FFF , 14px 1831px #FFF , 582px 476px #FFF , 588px 1230px #FFF , 1520px 1343px #FFF , 1671px 203px #FFF , 550px 341px #FFF , 1491px 549px #FFF , 558px 161px #FFF , 896px 1823px #FFF , 999px 1463px #FFF , 1557px 636px #FFF , 1754px 1307px #FFF , 1682px 1494px #FFF , 703px 1707px #FFF , 1945px 1395px #FFF , 1343px 1622px #FFF , 209px 1706px #FFF , 581px 100px #FFF , 1394px 1788px #FFF , 1214px 1487px #FFF , 1210px 1767px #FFF , 503px 1459px #FFF , 1317px 1383px #FFF;
+  animation: animStar 150s linear infinite;
+}
+
+@keyframes animStar {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-2000px);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.05);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes glow {
+  0%, 100% {
+    text-shadow: 0 0 20px rgba(168, 85, 247, 0.5);
+  }
+  50% {
+    text-shadow: 0 0 30px rgba(168, 85, 247, 0.8);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-pulse-slow {
+  animation: pulse 4s ease-in-out infinite;
+}
+
+.animate-slide-in {
+  animation: slideIn 0.6s ease-out forwards;
+}
+
+.animate-glow {
+  animation: glow 3s ease-in-out infinite;
+}
+
+.section-fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.6s ease-out;
+}
+
+.section-fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@keyframes twinkle {
+  0% { opacity: 0.3; }
+  50% { opacity: 0.8; }
+  100% { opacity: 0.3; }
+}
+
+.stars, .twinkling {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.stars {
+  background: url("https://www.transparenttextures.com/patterns/stardust.png");
+  opacity: 0.5;
+}
+
+.twinkling {
+  background: url("https://www.transparenttextures.com/patterns/tiny-stars.png");
+  animation: twinkle 5s infinite alternate;
+}
