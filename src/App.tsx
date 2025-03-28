@@ -76,7 +76,7 @@ function App() {
       image: "/team/bastab.webp",
     },
     {
-      name: "Manalisha Bora",
+      name: "Manalisha Kashyap",
       role: "Event Management",
       image: "/team/manalisha.webp",
     },
